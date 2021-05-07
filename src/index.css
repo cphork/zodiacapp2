@@ -1,0 +1,362 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.header {
+  display: flex;
+  align-items: baseline;
+  margin-top: 20px;
+}
+
+
+.header a {
+  text-decoration: none;
+}
+
+div {
+  font-size: 10px;
+  justify-content:space-around;
+  color: black;
+  
+  
+}
+
+.logo {
+  font-size: 20px;
+  font-family: cursive;
+  font-weight: bold;
+  color: rgb(230, 184, 57);
+  border: 2px solid  rgb(32, 89, 128);
+  background: rgb(32, 89, 128);
+}
+
+.bg-image {
+  height: 350px;
+  width: 350px;
+  margin-top: -50px;
+}
+
+.forms {
+  display: flex;
+  justify-content:space-evenly;
+  
+}
+
+.hearts {
+  height: 50px;
+  width: 80px;
+ margin-left: 195px;
+}
+
+h4 {
+  color: rgb(32, 89, 128);
+  font-size: 12px;
+  font-family: monospace;
+}
+
+.description {
+  margin-left: 80px;
+  width: 250px;
+  
+}
+
+.welcome {
+  font-family: monospace;
+  font-size: 25px;
+  margin-top: 75px ;
+  color: rgb(230, 184, 57);
+  text-shadow: 3px 3px rgb(32, 89, 128);
+  
+}
+
+.sign-image {
+  margin-left: 75px;
+}
+
+.bg-image-zodiac-signs {
+  height: 350px;
+  width: 350px;
+  margin-top: 50px;
+}
+
+.zodiac-form {
+  margin-top: 30px;
+}
+
+.zodiac-header {
+  margin-top: 50px;
+  font-family: monospace;
+  font-size: 20px;
+  color: rgb(230, 184, 57);
+  text-shadow: 2px 2px rgb(32, 89, 128);
+}
+
+.love-bg {
+  height: 350px;
+  width: 350px;
+  margin-top: 10px;
+}
+
+.love-comp-btn {
+  margin-top: -30px;
+}
+
+.love-comp-header {
+  margin-top: 50px;
+  font-family: monospace;
+  font-size: 20px;
+  color: rgb(230, 184, 57);
+  text-shadow: 2px 2px rgb(32, 89, 128);
+}
+
+.tarot-bg-image {
+  height: 350px;
+  width: 350px;
+  margin-top: 20px;
+}
+
+.tarot-btn{
+  margin-top: 10px;
+  background: rgb(230, 184, 57);
+}
+
+.tarot-header {
+  margin-top: 50px;
+  font-family: monospace;
+  font-size: 20px;
+  color: rgb(230, 184, 57);
+  text-shadow: 2px 2px rgb(32, 89, 128);
+}
+
+.random-image {
+  margin-top: -5px;
+}
+
+.random-description {
+  /* width: 250px;
+  height: 200px; */
+  margin-top: 50px;
+  margin-right: 120px;
+  margin-left: 125px;
+  font-family: fantasy;  
+ 
+  
+}
+
+.comp-header {
+  margin-top: 100px;
+  font-size: 20px;
+}
+
+.main-pg-links a {
+text-decoration: none;
+color: rgb(32, 89, 128);
+font-weight: bold;
+}
+
+
+.main-pg-links {
+  display: flex;
+  flex-direction: column;
+  width: 125px;
+  margin-left: 140px;
+  margin-top: 40px;
+}
+
+.signs-pg-links {
+  display: flex;
+  flex-direction: column;
+  width: 125px;
+  margin-left: 140px;
+  margin-top: 25px; 
+}
+
+.signs-pg-links a {
+  text-decoration: none;
+  color: rgb(32, 89, 128);
+  font-weight: bold;
+  }
+
+.tarot-pg-links {
+  display: flex;
+  flex-direction: column;
+  width: 125px;
+  margin-left: 140px;
+  margin-top: 25px;   
+}
+
+.tarot-pg-links  a {
+  text-decoration: none;
+  color: rgb(32, 89, 128);
+  font-weight: bold;
+  }
+
+
+.comp-pg-links {
+  display: flex;
+  flex-direction: column;
+  width: 125px;
+  margin-left: 140px;
+  margin-top: 25px;   
+}
+
+.comp-pg-links  a {
+  text-decoration: none;
+  color: rgb(32, 89, 128);
+  font-weight: bold;
+  }
+
+.links {
+  background: rgb(230, 184, 57);
+  margin-bottom: 20px;
+  border-radius: 5px;
+  font-family: monospace;
+}
+
+.links-header {
+  text-align: center;
+  font-family: monospace;
+  margin-top: 100px; 
+  font-size: 20px;
+  color: rgb(230, 184, 57);
+  text-shadow: 2px 2px rgb(32, 89, 128);
+  
+}
+
+.zodiac-sign {
+  height: 200px;
+  margin-top: 50px; 
+}
+
+.love-btn {
+  background: rgb(230, 184, 57);
+}
+
+.zodiac-submit {
+  background: rgb(230, 184, 57);
+}
+
+.bg-image-signs {
+  height: 300px;
+  width: 350px;
+  margin-top: 20px;
+}
+
+.random-tarot-image {
+height: 600px;
+
+}
+
+.tarot-display-btn a {
+text-decoration: none;
+}
+
+.tarot-display-btn {
+ margin-right: 25px;
+ margin-top: 10px;
+ background: rgb(230, 184, 57);
+}
+
+.random-tarot-header {
+  margin-top: 30px;
+}
+
+.signs-btn-header {
+  margin-top: 50px;
+  font-family: monospace;
+  font-size: 20px;
+  color: rgb(230, 184, 57);
+  text-shadow: 2px 2px rgb(32, 89, 128);
+}
+
+.comp-btn-header {
+  margin-top: 50px;
+  font-family: monospace;
+  font-size: 20px;
+  color: rgb(230, 184, 57);
+  text-shadow: 2px 2px rgb(32, 89, 128);
+}
+
+.tarot-btn-header {
+  margin-top: 50px;
+  font-family: monospace;
+  font-size: 20px;
+  color: rgb(230, 184, 57);
+  text-shadow: 2px 2px rgb(32, 89, 128);}
+
+.signs {
+  color: rgb(32, 89, 128);
+  font-weight: bold;
+  font-family: monospace;
+ 
+}
+
+.love {
+  color: rgb(32, 89, 128);
+  font-weight: bold;
+  font-family: monospace;
+ 
+}
+
+.tarot{
+  color: rgb(32, 89, 128);
+  font-weight: bold;
+  font-family: monospace;
+}
+
+.reset-btn a {
+  text-decoration: none;
+}
+
+.reset-btn  {
+  background: rgb(230, 184, 57);
+  margin-top: 25px;
+}
+
+.signs-reset-btn a {
+  text-decoration: none;
+}
+
+.signs-reset-btn {
+  background:  rgb(230, 184, 57);
+  margin-top: 25px;
+}
+
+@media screen and (min-width: 850px) {
+  
+.main-pg-links{
+ margin-left: 580px;
+}
+
+.comp-pg-links {
+  margin-left: 580px;
+}
+
+.tarot-pg-links {
+  margin-left: 580px;
+}
+
+.signs-pg-links {
+  margin-left: 580px;
+}
+
+.description {
+  margin-left: 520px;
+}
+
+.logo {
+  font-size: 30px;
+}
+
+
+}
